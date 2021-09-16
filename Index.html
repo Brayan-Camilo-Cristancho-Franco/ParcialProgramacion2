@@ -2,13 +2,32 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="./css/style.css">
 	<title>Diccionario Web</title>
 </head>
 <body>
+
 	<h1>Bienvenido al diccionario</h1>
 	<form>
 		<label> Ingrese una palabra en ingles: </label>
 		<input type="text" name="word" id="Word-imput">
 	</form>
+	<br>
+	<input id="generate-button" type="button" value="Confirmar">  
+	<br>
+	<br>
+	<div id="options" >
+		<table class="table-dictionary" id="pet-table">
+			<thead id= "thead-table" >
+				<tr>
+					<th colspan="3" class="Dates-th">PartOfSpeech</th>
+				</tr>
+			</thead>
+			<tbody id="body-table"></tbody>
+		</table>
+		<p id= "partOfSpeech-p"></p>	
+
+	</div>
+	<script src="./js/main.js"></script>
 </body>
 </html>
