@@ -4,15 +4,15 @@ table {
     border-color: black;
 }
 th {
- color:  black;
- border: 1px solid #008080;
- width: 100px; 
- padding: 10px;
-    }
+   color:  black;
+   border: 1px solid #008080;
+   width: 100px; 
+   padding: 10px;
+}
 
 td {
- color:  black;
- border: 1px solid #008080;
- width: 100px; 
- padding: 10px;
-    }
+   color:  black;
+   border: 1px solid #008080;
+   width: 100px; 
+   padding: 10px;
+}

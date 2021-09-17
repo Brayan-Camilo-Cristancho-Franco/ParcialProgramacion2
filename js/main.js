@@ -56,6 +56,16 @@ document.getElementById("generate-button").onclick = function (){
 			trbody.appendChild(td3)
 			document.getElementById("body-table").appendChild(trbody)
 
+			document.getElementById("audio-button").onclick = function(){
+
+				var audio = document.createElement("audio");
+				let url =data[0].phonetics[0].audio;
+				audio.src=url;
+				audio.controls= true;
+				document.getElementById("word-audio").appendChild(audio)
+			}
+
+
 		}
 
 		)
@@ -65,3 +75,8 @@ document.getElementById("generate-button").onclick = function (){
 	}
 
 }
+
+document.getElementById("delete-button").onclick = function(){
+
+	document.getElementById("body-table").innerHTML="";
+	document.getElementById("thead-table").innerHTML="";}
